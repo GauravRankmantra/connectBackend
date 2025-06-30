@@ -11,6 +11,7 @@ const benevolentRequestFormRoute = require("./BenevolentRequestFormRoute.js");
 const eventAttendanceRegistrationVerificationFormRoute = require("./EventAttendanceRegistrationVerificationFormRoute.js");
 const meetingOrPersonalMinistryRequestRoute = require("./MeetingOrPersonalMinistryRequestRoute.js");
 const partnerCardRoute = require("./PartnerCardRoute.js");
+const donationRoute = require("./DonationRouter.js");
 
 router.use("/health", healthCheck);
 router.use("/associate-member", associateMemberRoute);
@@ -29,5 +30,6 @@ router.use(
   meetingOrPersonalMinistryRequestRoute
 );
 router.use("/partner-card", partnerCardRoute);
+router.use("/donate", donationRoute);
 
 module.exports = router;

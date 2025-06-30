@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "authorizenet": "^1.0.10",
     "bcryptjs": "^3.0.2",
     "body-parser": "^2.2.0",
     "chai": "^5.2.0",
