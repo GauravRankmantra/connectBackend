@@ -11,7 +11,8 @@ connectDB();
 const allowedDomains = [
   "http://localhost:5173",
   "http://localhost:5174",
-  "https://connectwithus2.netlify.app"
+  "https://connectwithus2.netlify.app",
+  "https://connectwithus.info"
 ];
 
 app.use(
